@@ -1,7 +1,7 @@
 import './NavBar.css';
 const searchIcon  = 'src/assets/images/search-icon.png';
 export default function NavBar(){
-return(<nav>
+return(<div id='nav-div'>
     <h1>
        <span>Unlimited </span><br />University web design 
     </h1>
@@ -16,5 +16,5 @@ return(<nav>
         <li className = "nav-li"><a className='nav-a' href="">CONTACT US</a></li>
     </ul>
     <img id= 'nav-img' src={searchIcon} alt="search icon" />
-</nav>);
+</div>);
 }

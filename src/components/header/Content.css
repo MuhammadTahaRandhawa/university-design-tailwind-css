@@ -12,6 +12,7 @@ text-align: start;
 }
 
 #header-content-div{
+   margin-top: 100px;
 display: flex;
 align-content: start;
 }

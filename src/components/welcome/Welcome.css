@@ -1,0 +1,29 @@
+#welcome-img-bg {
+    background-image: url('src/assets/images/welcome-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire area of the div */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Full width */
+    height: 400px; /* Set a height for the background */
+    padding-right: 25px;
+  }
+  
+  /* Ensure the img is responsive and does not exceed its container's width */
+  #welcome-img-fg { 
+    padding-left: 80px;
+    max-width: 100%;
+    height: auto;
+  }
+
+#welcome-bg{
+    display: flex;
+    flex-flow: row;
+}
+
+#welcome-img-bg , #welcome-text{
+    width: 100%;
+}
+#welcome-text{
+    padding-right: 80px;
+    padding-left: 25px;
+}

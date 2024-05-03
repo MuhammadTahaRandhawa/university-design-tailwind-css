@@ -1,0 +1,6 @@
+#service-div{
+    display: flex;
+    padding: 80px;
+    background-image: url('src/assets/images/services-bg.png');
+
+}
