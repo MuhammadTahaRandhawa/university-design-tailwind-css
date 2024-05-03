@@ -1,0 +1,28 @@
+#nav-ul{
+   display: flex; 
+   justify-content: space-between;
+list-style-type: none;
+}
+.nav-li{
+    padding: 10px;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-a{
+    color: white;
+    text-decoration: none;
+}
+#nav-img{
+    
+    height: 30px;
+    width: 30;
+}
+
+h1 > span{
+color: #ffaf43;
+}
