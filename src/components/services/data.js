@@ -6,8 +6,8 @@ const services4 = 'src/assets/images/services-4.png';
 const servicesData = [
 { image: service1, title: 'University Lite', description: "Lorem Ipsum is simply dummy text of theprinting and type setting industry. Lorem Ipsum has Iker-I the industry's stand dummy text ever since the 15ms, when an unknown printer took a galley of type." },
 { image: services2, title: 'Graduation', description: "Lorem Ipsum is simply dummy text of theprinting and type setting industry. Lorem Ipsum has Iker-I the industry's stand dummy text ever since the 15ms, when an unknown printer took a galley of type." },
-{ image: services2, title: 'Athletics', description: "Lorem Ipsum is simply dummy text of theprinting and type setting industry. Lorem Ipsum has Iker-I the industry's stand dummy text ever since the 15ms, when an unknown printer took a galley of type." },
-{ image: services2, title: 'Social', description: "Lorem Ipsum is simply dummy text of theprinting and type setting industry. Lorem Ipsum has Iker-I the industry's stand dummy text ever since the 15ms, when an unknown printer took a galley of type." },
+{ image: services3, title: 'Athletics', description: "Lorem Ipsum is simply dummy text of theprinting and type setting industry. Lorem Ipsum has Iker-I the industry's stand dummy text ever since the 15ms, when an unknown printer took a galley of type." },
+{ image: services4, title: 'Social', description: "Lorem Ipsum is simply dummy text of theprinting and type setting industry. Lorem Ipsum has Iker-I the industry's stand dummy text ever since the 15ms, when an unknown printer took a galley of type." },
 ];
 
 export default servicesData;

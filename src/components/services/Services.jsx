@@ -1,9 +1,10 @@
 import servicesData from "./data";
 import Service from "./Service";
-import './Services.css';
+
 
 export default function Services(){
-    return(<div id="service-div">
-    {servicesData.map((service) => <Service {...service}/>)}
+    return(<div className="bg-[url('src/assets/images/services-bg.png')] justify-center">
+    <div className="flex mx-28">{servicesData.map((service) => <Service {...service}/>)}</div>
+    
     </div>);
 }

@@ -1,9 +1,8 @@
 import NavBar from "./NavBar";
 import Content from "./Content";
-import './Header.css';
 
 export default function Header(){
-    return(<header>
+    return(<header className="bg-[url('src/assets/images/header-bg.png')] bg-no-repeat">
         <NavBar/>
         <Content/>
     </header>);

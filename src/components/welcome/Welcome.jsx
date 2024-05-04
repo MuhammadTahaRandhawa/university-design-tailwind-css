@@ -1,17 +1,17 @@
 const foregroundImage = 'src/assets/images/welcome-foreground.png';
-import './Welcome.css';
+
 export default function Welcome() {
     return (
-        <div id = 'welcome-bg'>
-            <div id='welcome-img-bg'>
-                <img id='welcome-img-fg' src={foregroundImage} alt="welcome foreground image" />
+        <div className="flex my-10">
+            <div className="w-[100%] bg-[url('src/assets/images/welcome-bg.png')] bg-no-repeat">
+                <img className="ml-28 mr-5" src={foregroundImage} alt="welcome foreground image" />
             </div>
-            <div  id='welcome-text'>
-                <h2>
+            <div  className="w-[100%] mr-28 ml-5 my-12">
+                <h2 className="text-[#ffaf42] text-xl">
                     WELCOME TO
                 </h2>
-                <h1>University Website Design</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has tkn the
+                <h1 className="text-2xl">University Website Design</h1>
+                <p className="text-base text-justify my-[50px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has tkn the
                     industry's standard dummy is text ever since the 1 when an unknown printer took a galley of tYFk
                     and scrambled it to make a type specimen bc»k. It has survived not only five centuries, but also the leap
                     into el«tronic typesetting a remaining essentially unchanged. It was popularised in the 190s with the

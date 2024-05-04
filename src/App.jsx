@@ -1,7 +1,7 @@
 import Header from './components/header/Header';
 import Welcome from './components/welcome/Welcome';
 import Services from './components/services/Services';
- import './App.css';
+
 
 function App() {
 
